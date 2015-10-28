@@ -1,2 +1,9 @@
-# day01-Three_menu
-homework
+功能说明：
+通过用户输入的一级菜单名 格式化打印出此菜单名下的二级三级菜单
+
+实现方法：
+1.通过列表和字典相互关联对应实现
+2.定义一级菜单为One_menu列表中的值
+3.One_menu中的值为Two_menu中的key
+4.Two_menu中的vlaue为Three_menu中的key
+5.通过打印 One_menu中的值 Two_menu中的vlaue Three_menu中的vlaue 来实现三级目录展示
