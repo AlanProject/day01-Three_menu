@@ -17,6 +17,6 @@ def menu(input_data):
         %s
             %s
                 %s
-            '''%(One_menu,Two_menu[One_menu],Three_menu[Two_menu[One_menu]])
+            '''%(input_data,Two_menu[input_data],Three_menu[Two_menu[input_data]])
 if __name__ == '__main__':
     menu(input_data)
